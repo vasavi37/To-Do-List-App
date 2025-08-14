@@ -1,0 +1,115 @@
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #c1e1ff, #e0f7fa); /* light gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    background: #ffffff; /* light white */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* soft shadow */
+    width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Fade-in animation for container */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* App Title */
+h1 {
+    margin-bottom: 20px;
+    color: #4a90e2; /* light blue */
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Task Input Field */
+#taskInput {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #81d4fa; /* light blue border */
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+#taskInput:focus {
+    border-color: #4fc3f7; /* lighter blue on focus */
+}
+
+/* Add Button */
+button {
+    padding: 15px 20px;
+    background-color: #4fc3f7; /* light blue */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #29b6f6;
+    box-shadow: 0 5px 15px rgba(41,182,246,0.3);
+}
+
+/* Task List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Task Items */
+li {
+    background: #e1f5fe; /* light blue background */
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease;
+}
+
+/* Hover effect for task items */
+li:hover {
+    transform: scale(1.02);
+}
+
+/* Delete Button */
+.delete-btn {
+    background: #6d98ac; /* soft blue */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+/* Delete button hover */
+.delete-btn:hover {
+    background: #4fc3f7;
+}
