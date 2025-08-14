@@ -1,2 +1,20 @@
-# To-Do-List-App
-The Cool To-Do List App is a simple, interactive web application designed to help users manage their daily tasks efficiently. Users can add, delete, and save tasks directly in their browser. The app features a light-colored, user-friendly interface with smooth animations and hover effects to enhance the user experience.
+# 📝 To-Do List App
+
+## Description
+A simple and interactive To-Do List web application that allows users to add, delete, and save tasks directly in the browser. The app features a light-colored UI with smooth animations and hover effects.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript (localStorage)
+
+## Features
+- Add new tasks dynamically
+- Delete tasks individually
+- Tasks are saved in browser using localStorage
+- Responsive and light-colored interface
+
+## Live Demo
+chech out the live demo here:[click here]()
+## Contact
+- *Author:* Vasavi Gokavalasa
