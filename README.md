@@ -15,6 +15,6 @@ A simple and interactive To-Do List web application that allows users to add, de
 - Responsive and light-colored interface
 
 ## Live Demo
-chech out the live demo here:[click here]()
+chech out the live demo here:[click here](https://vasavi37.github.io/To-Do-List-App/)
 ## Contact
 - *Author:* Vasavi Gokavalasa
